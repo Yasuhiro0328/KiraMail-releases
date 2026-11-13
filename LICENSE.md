@@ -1,6 +1,8 @@
 # KiraMail 利用規約 / Terms of Use
 
-最終更新日 / Last updated: 2026年10月5日 / October 5, 2026
+最終更新日 / Last updated: 2026年11月14日 / November 14, 2026
+
+改定：2026年11月14日 第11条・第12条を変更（0.15.0 から適用）／ Revised: November 14, 2026 Sections 11 and 12 (applies from version 0.15.0)
 
 ---
 
@@ -62,12 +64,13 @@
 3. 本書のどの定めも、ほかのソフトウェアのライセンスが利用者に認めている権利を制限するものではありません。
 
 ### 11. 更新と提供の中止
-1. 本ソフトは、起動したときと、起動している間は24時間おきに、新しい版があるかを GitHub に問い合わせます。送る情報はプライバシーポリシーのとおりです。この問い合わせは、設定（「全般」→「新しい版のお知らせ」）で止められます。止めている間は問い合わせをしません。
-2. 新しい版が見つかったときは、画面でお知らせするだけです。自動でダウンロード・インストールはしません。新しい版を入れるかどうかは、利用者が決めます。
-3. 提供者は、公式の配布ページでお知らせしたうえで、本ソフトの配布・更新・お問い合わせの受付をやめることがあります。その後も、すでに入手した版は使い続けられます。ただし、メールサービスや AI の提供元の変更によって、動かなくなることがあります。
+1. 本ソフトは、起動したときと、起動している間は24時間おきに、配布元の GitHub から新しい版の情報（版番号、ファイルの名前と大きさ、照合の値）を読み、新しい版があるかを確かめます。送る情報はプライバシーポリシーのとおりです。この自動の確かめは、設定（「一般」→「KiraMail の更新」）で止められます。止めている間は、利用者が画面で確かめる操作をしたときだけ確かめます。
+2. 新しい版が見つかったときは、画面でお知らせします。新しい版のダウンロードと、今の版との入れ替えは、どちらも利用者が画面で操作したときだけ行います。利用者が操作しない限り、自動でダウンロードや入れ替えをすることはありません（Windows を終了・再起動するときにも入れ替えません）。新しい版を入れるかどうかは、利用者が決めます。
+3. ダウンロードは、第2条の公式の配布ページと同じ GitHub の配布元から行います。前の版との違いの分だけをダウンロードすることがあります。ダウンロードした物は、配布元が示す照合の値と一致したときだけ使い、一致しないときは使いません。入れ替えでは、本ソフトをいったん閉じて新しい版を入れ、終わると本ソフトを開き直します。その前に、この PC の中にメールのデータの控えを作り、控えを作れないときは入れ替えません。この控えは、第7条のデータの管理に代わるものではありません。
+4. 提供者は、公式の配布ページでお知らせしたうえで、本ソフトの配布・更新・お問い合わせの受付をやめることがあります。その後も、すでに入手した版は使い続けられます。ただし、メールサービスや AI の提供元の変更によって、動かなくなることがあります。
 
 ### 12. 本書の変更
-提供者は本書を変更することがあります。変更した本書は、変更した後に公開する版から適用し、公式の配布ページでお知らせします。利用者が新しい版をインストールした時点で、その版の本書に同意したものとみなします。
+提供者は本書を変更することがあります。変更した本書は、変更した後に公開する版から適用します。変更するときは、変更の内容と適用する版を、公式の配布ページ（その版のリリースノート）でお知らせします。本ソフトの中の更新で入れ替える場合も含め、利用者が新しい版をインストールした時点で、その版の本書に同意したものとみなします。本書は、本ソフトの「ヘルプ」→「利用規約」でいつでも読めます。
 
 ### 13. 準拠法と裁判所
 本書は日本法に従って解釈します。本書または本ソフトについて争いが生じた場合は、札幌地方裁判所または札幌簡易裁判所を第一審の専属的な合意管轄裁判所とします。ただし、法令に別の定めがある場合は、その定めに従います。
@@ -139,12 +142,13 @@ The Provider will endeavor to fix defects, release updates and respond to inquir
 3. Nothing in these terms restricts any right granted to you by the license of a third-party component.
 
 ### 11. Updates and discontinuation
-1. The Software asks GitHub whether a new version is available when it starts and every 24 hours while it is running. The information sent is described in the Privacy Policy. You can turn this off in Settings (全般 (General) → 新しい版のお知らせ (New version notice)); while it is off, no request is made.
-2. When a new version is found, the Software only notifies you on screen. It never downloads or installs anything automatically. You decide whether to install a new version.
-3. The Provider may stop distributing or updating the Software, or accepting inquiries, after announcing it on the official download page. You may keep using the versions you have already obtained, although changes by email services or AI providers may cause them to stop working.
+1. When it starts and every 24 hours while it is running, the Software reads information about the latest version (version number, file name and size, and checksum) from GitHub, its distribution source, to check whether a new version is available. The information sent is described in the Privacy Policy. You can turn off this automatic check in Settings (「一般」 → 「KiraMail の更新」); while it is off, the Software checks only when you ask it to on screen.
+2. When a new version is found, the Software notifies you on screen. The Software downloads a new version, and replaces the current version with it, only when you choose to do so on screen. Unless you do so, it never downloads or installs a new version automatically (including when Windows shuts down or restarts). You decide whether to install a new version.
+3. Downloads come from the same GitHub distribution source as the official download page in Section 2. The Software may download only the parts that differ from the previous version. A downloaded file is used only if it matches the checksum published by the distribution source; otherwise it is not used. To replace the current version, the Software closes, installs the new version and then starts again. Before that, it makes a backup copy of your email data on this PC; if the copy cannot be made, the replacement does not take place. This copy does not replace your own data management under Section 7.
+4. The Provider may stop distributing or updating the Software, or accepting inquiries, after announcing it on the official download page. You may keep using the versions you have already obtained, although changes by email services or AI providers may cause them to stop working.
 
 ### 12. Changes to these terms
-The Provider may change these terms. Changed terms apply to versions released after the change and will be announced on the official download page. By installing a new version, you agree to the terms included with that version.
+The Provider may change these terms. Changed terms apply to versions released after the change. When the Provider changes these terms, it will announce the changes and the version to which they apply on the official download page (in the release notes for that version). By installing a new version, including by updating from within the Software, you agree to the terms included with that version. You can read these terms at any time from ヘルプ (Help) → 利用規約 (Terms of Use) in the Software.
 
 ### 13. Governing law and jurisdiction
 These terms are governed by the laws of Japan. The Sapporo District Court or the Sapporo Summary Court shall have exclusive jurisdiction as the court of first instance for any dispute concerning these terms or the Software, unless otherwise provided by law.
